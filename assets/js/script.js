@@ -3,18 +3,25 @@ console.log('link ok');
 // !  **Palidroma**
 
 // const parolaUser = prompt('Inserisci una parola');
-const parolaUser = 'Anna';
+let parola ='casa';
+let parolaInversa = '';
+
+if(parolaInversa === parola){
+  console.log('Sono palindrome');
+}
+else{
+  console.log('Sono parole diverse!');
+}
 
 
 
 
+for(let i = 0; i < parola.length; i++){
 
+  parolaInversa += parola[i];
 
-
-
-
-
-
+  console.log(parolaInversa);
+}
 
 
 
